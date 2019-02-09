@@ -15,7 +15,7 @@ function pressIt() {
     }
   });
 }
-function submitit() {
+function submitIt() {
   $('form').on('sumbIt', function(){
     alert('Your form is going to be submitted now.');
   })
